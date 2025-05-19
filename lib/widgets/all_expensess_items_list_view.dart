@@ -14,20 +14,23 @@ class AllExpensessItemsListView extends StatefulWidget {
 class _AllExpensessItemsListViewState extends State<AllExpensessItemsListView> {
   final items = [
     const AllExpensessItemModel(
-        image: Assets.imagesBalance,
-        title: 'Balance',
-        date: 'April 2022',
-        price: r'$20,129'),
+      image: Assets.imagesBalance,
+      title: 'Balance',
+      date: 'April 2022',
+      price: r'$20,129',
+    ),
     const AllExpensessItemModel(
-        image: Assets.imagesIncome,
-        title: 'Income',
-        date: 'April 2022',
-        price: r'$20,129'),
+      image: Assets.imagesIncome,
+      title: 'Income',
+      date: 'April 2022',
+      price: r'$20,129',
+    ),
     const AllExpensessItemModel(
-        image: Assets.imagesExpenses,
-        title: 'Expenses',
-        date: 'April 2022',
-        price: r'$20,129'),
+      image: Assets.imagesExpenses,
+      title: 'Expenses',
+      date: 'April 2022',
+      price: r'$20,129',
+    ),
   ];
 
   int selectedIndex = 0;
